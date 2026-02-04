@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+header {
+  width: 100%;
+  height: 40px;
+  background-color: #e4260d; /* red header */
+  color: #fff;
+}
+header p {
+  padding:8px 0 0 10px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  padding-top: 3.5rem; 
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 320px;
+  margin: 80px auto;
+}
+
+.container .logo {
+  position: absolute;
+  top: -40px;          
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;          
+  height: auto;
+  margin: 0;
+  z-index: 2;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 20px;
+}
+
+/* Input groups with icons */
+.input-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.6rem 2.5rem 0.6rem 2.5rem; /* space for icons */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Email icon */
+#email {
+  background: url('https://cdn-icons-png.flaticon.com/512/561/561127.png') no-repeat 8px center;
+  background-size: 18px;
+}
+
+/* Password icon */
+#password {
+  background: url('https://cdn-icons-png.flaticon.com/512/3064/3064155.png') no-repeat 8px center;
+  background-size: 18px;
+}
+
+/* Eye icon toggle */
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  color: #4fbdf0; /* blue accent */
+}
+
+.signup-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.remember label {
+  margin-left: 0.5rem;
+  color: #555;
+}
+
+button {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #4fbdf0; /* blue button */
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  width: 100%;
+  height: 40px;
+  background:#4fbdf0; /* blue footer */
+  margin: 0 auto;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
