@@ -13,7 +13,8 @@ Responsive design principles to match the mockup's visual structure[cite: 17].
 ## Final Output
 Below is a screenshot of the completed page:
 
-(/img/mpuzalook.PNG) 
+
+![Dashboard Screenshot](img/mpuzalook.PNG)
 
 
 ## Assignment Details
